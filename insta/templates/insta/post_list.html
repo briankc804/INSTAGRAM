@@ -2,8 +2,20 @@
 
 {% block content %}
     {% for post in posts %}
-        <p>{{post.author}}</p>
-        <p>{{post.caption}}</p>
+        <div class="card">
+            <div class="card_header">
+                <div class="profile_image">
+                </div>
+                <div class="post_info">
+                    <div class="post_name">{{post.author}}</div>
+                    <div class="post_location">New York</div>
+                </div>
+                <div class="post_options"><i class="fas fa-ellipsis-h"></i></div>
+            </div>
+            <div class="post_image">
+                <img src="static/css/images/Volkswagen-Arteon.png" alt="">
+            </div>
+        </div>            
 
     {% endfor %}
 {% endblock %}
