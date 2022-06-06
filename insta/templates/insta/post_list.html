@@ -15,6 +15,24 @@
             <div class="post_image">
                 <img src="static/css/images/Volkswagen-Arteon.png" alt="">
             </div>
+            <div class="engagement">
+                <a href=""><i class="far fa-heart"></i></a>
+                <a href=""><i class="far fa-comment"></i></a>
+                <a href=""><i class="far fa-share-square"></i></a>
+                <a href=""><i class="far fa-bookmark"></i></a>
+
+            </div> 
+            <div class="likes">
+                <a href="">345</a>
+            </div>  
+            <div class="caption">
+                <a href=""><h2>{{post.author}}</h2></a>
+                <span><p>{{post.caption}}</p></span>
+            </div> 
+            
+            <div class="time_posted">
+                {{post.created_date | timesince}} ago
+            </div>
         </div>            
 
     {% endfor %}
