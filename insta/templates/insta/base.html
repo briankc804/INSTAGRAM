@@ -12,11 +12,18 @@
 <body>
     <header>
         <div class='navigation'>
+            <div class='login'>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login' %}">
+                        Login</a>
+                </li> 
+            </div>     
             <div class='instalogo'>
                 <a class='' href='/'><i class="fab fa-instagram"></i></a>
                 <a class='vl' href='/'></a>
                 <a href='/'>Instagram</a>
             </div>
+
             <div class='search_bar'>
                 <input type='text' placeholder='search'>
                 <a class='search' href=''><i class="fas fa-search"></i></a>
