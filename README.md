@@ -35,20 +35,6 @@ Create a Pull Request
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-These are the things you need to install the software and how to install them
-
-```
-virtual enviroment:
-
-$ clonenv
-
-or
-
-$ python3 -m venv virtual ( or your selected virtual enviroment name )
-```
-
 ### 1. Local Repository
 
 - Make sure you have a stable internet to have the ability to clone the repository.
