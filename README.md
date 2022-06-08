@@ -3,7 +3,7 @@
 
 ## Description
 
-This project is an instagram clone from original  photo sharing app by meta. The features used for this project are similar to the ones of the actual platform. The future plans will include stories and reels
+This project is an instagram clone from original  photo sharing app by meta. The features used for this project are similar to the ones of the actual platform. 
 
 ## Behaviour Driven Development
 
