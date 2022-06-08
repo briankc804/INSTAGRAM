@@ -56,43 +56,11 @@ When you run the commands successfully, you should have a local version of this 
 
 Feel free to fork the project and have fun with it. Happy coding!
 
-### Installing
-
-To get a development env running, you simply need the install all the packages reguired from either a requirements.txt file or a pipfile. First you need to activate your virtual environment
-
-```
-$clonenv
-
-of
-
-$ source virtualenvname/bin/activate
-```
-
-after that, install all the required depencencies
-
-```
-$ pipenv install //pretty much takes care of installing all depencies for you
-```
-
-After this, you can run the application using the commands that come in the make file. for this case, it is either of the following:
-
-```
-$ make
-
-or
-
-$ make run
-
-or
-
-$ python manage.py runserver
-
-```
-
 
 ## Technologies
 
-
+- Pip
+- Bootstrap5
 - JavaScript
 - Django
 
